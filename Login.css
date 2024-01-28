@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+.background {
+	position: absolute; 
+	height: 100%; 
+	width: 100%;
+	background: url(bg.jpg) repeat;
+	opacity: 0.1;
+}
+
+.container {
+	height: 680px;
+	width: 500px;
+	border-radius: 10px;
+	/* background: rgba(253, 253, 253, 0.6); */
+	box-shadow: 2px 10px 28px 0px rgba(75, 0, 129, 0.12);
+	position: relative;
+	overflow: hidden;
+	/* opacity: 100%; */
+}
+
+.btn {
+	height: 51.565px;
+	width: 350.015px;
+	margin: 20px auto;
+	box-shadow: 10px 10px 30px rgba(0, 128, 128, 0.62);
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgba(0, 128, 128, 0.62);
+}
+
+.con,
+.intro {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+}
+
+.con {
+	margin-top: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.intro {
+	margin-top: 90px;
+	color: #5B5B5B;
+}
+
+.login,
+.signup {
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.slider {
+	height: 30px;
+	width: 100px;
+	border-radius: 50px;
+	/* background-image: linear-gradient(to right,
+			rgb(255, 195, 110),
+			rgb(255, 146, 91)); */
+	background-image: linear-gradient(to right,
+			#008080,
+			#008080);
+	position: absolute;
+	top: 75px;
+	left: 90px;
+	right: 0px;
+	transition: all 0.3s ease-in-out;
+}
+
+.moveslider {
+	left: 305px;
+}
+
+.form-section {
+	height: 500px;
+	width: 1000px;
+	padding: 20px 0;
+	display: flex;
+	position: relative;
+	transition: all 0.5s ease-in-out;
+	left: 0px;
+}
+
+.form-section-move {
+	left: -500px;
+}
+
+.login-box,
+.signup-box {
+	height: 45%;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 40px;
+}
+
+.login-box {
+	margin: 0px;
+	gap: 15px;
+}
+
+.signup-box {
+	height: 55%;
+	gap: 15px;
+}
+
+.pass-below {
+	display: flex;
+	/* flex-direction: row; */
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+
+.input-head {
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+}
+
+#check {
+	height: 9px;
+}
+
+.gtPass,
+.remember {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.gtPass {
+	margin-left: 205px;
+	text-decoration: none;
+}
+
+.inputField {
+	height: 47px;
+	width: 420px;
+	outline: none;
+	border: 1px solid #49BBBD;
+	background-color: #ffffff;
+	border-radius: 40px;
+	padding-left: 20px;
+	font-size: 15px;
+}
+
+.clkbtn {
+	height: 42px;
+	width: 250px;
+	border-radius: 36px;
+	background-image: linear-gradient(to right,
+			#008080,
+			#008080);
+	/* background-image: linear-gradient(to right,
+	rgb(255, 195, 110),
+	rgb(255, 146, 91)); */
+	font-size: 16px;
+	padding: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+.heading {
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+/* For Responsiveness of the page */
+
+@media screen and (max-width: 650px) {
+	.container {
+		height: 600px;
+		width: 300px;
+	}
+
+	/* .title {
+		font-size: 15px;
+	} */
+	.con {
+		margin-top: 10px;
+	}
+
+	.btn {
+		height: 50px;
+		width: 200px;
+		/* margin: 20px auto; */
+	}
+
+	.login,
+	.signup {
+		font-size: 19px;
+	}
+
+	.slider {
+		top: 54px;
+		height: 50px;
+		width: 100px;
+		left: 50px;
+	}
+
+	.moveslider {
+		left: 150px;
+	}
+
+	.intro {
+		width: 250px;
+		margin-top: 12em;
+		color: #5B5B5B;
+	}
+
+	.hai {
+		margin-top: 8em;
+	}
+
+	.gtPass,
+	.remember {
+		font-size: 11px;
+	}
+
+	.gtPass {
+		margin-left: 23px;
+	}
+
+	#check {
+		height: 8px;
+	}
+
+	.form-section {
+		height: 500px;
+		width: 600px;
+	}
+
+	.form-section-move {
+		left: -300px;
+	}
+
+	.login-box,
+	.signup-box {
+		height: 45%;
+		width: 300px;
+	}
+
+	.inputField {
+		height: 50px;
+		width: 250px;
+		font-size: 15px;
+	}
+
+	.clkbtn {
+		height: 50px;
+		width: 250px;
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.container {
+		height: 600px;
+		width: 250px;
+	}
+
+	.con {
+		color: #000;
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+
+	/* .heading {
+		font-size: 30px;
+	} */
+
+	/* .title {
+		font-size: 10px;
+	} */
+
+	.btn {
+		height: 50px;
+		width: 220px;
+		margin: 5px 15px auto;
+	}
+
+	.login,
+	.signup {
+		font-size: 19px;
+	}
+
+	.slider {
+		top: 39px;
+		height: 50px;
+		width: 110px;
+		left: 15px;
+	}
+
+	.moveslider {
+		left: 130px;
+	}
+
+	.intro {
+		width: 210px;
+		margin-top: 2px;
+		color: #5B5B5B;
+	}
+
+	.form-section {
+		height: 500px;
+		width: 500px;
+	}
+
+	.form-section-move {
+		left: -250px;
+	}
+
+	.login-box,
+	.signup-box {
+		height: 100%;
+		width: 250px;
+	}
+
+	.login-box {
+		height: 90%;
+	}
+
+	.clkbtn,
+	.inputField {
+		height: 40px;
+		width: 220px;
+		font-size: 15px;
+	}
+
+	.pass-below {
+		display: flex;
+		flex-direction: column;
+		/* justify-content: center; */
+		align-items: center;
+	}
+
+	#check {
+		height: 8px;
+	}
+
+}
