@@ -257,5 +257,7 @@ body {
 		width: 220px;
 		font-size: 15px;
 	}
-
+	.heading {
+		font-size: 14px;
+	}
 }
