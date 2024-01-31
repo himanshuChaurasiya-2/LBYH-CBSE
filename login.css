@@ -78,12 +78,12 @@ body {
 	border-radius: 50px;
 	background-image: linear-gradient(to right, #008080, #008080);
 	position: absolute;
-	left: 95px;
+	left: 75px;
 	transition: all 0.3s ease-in-out;
 }
 
 .moveslider {
-	left: 270px;
+	left: 290px;
 }
 
 .form-section {
@@ -101,7 +101,7 @@ body {
 }
 
 .login-box,.signup-box {
-	height: 15em;
+	height: 23em;
 	width: 500px;
 	display: flex;
 	flex-direction: column;
@@ -111,7 +111,7 @@ body {
 }
 
 .signup-box {
-	height: 22em;
+	height: 34em;
 }
 
 .pass-below {
@@ -130,7 +130,7 @@ body {
 }
 
 .gtPass {
-	margin-left: 235px;
+	margin-left: 200px;
 }
 
 .inputField{
@@ -171,15 +171,15 @@ body {
 
 	.slider {
 		width: 75px;
-		left: 48px;
+		left: 40px;
 	}
 
 	.moveslider {
-		left: 158px;
+		left: 168px;
 	}
 
 	.gtPass {
-		margin-left: 70px;
+		margin-left: 25px;
 	}
 
 	.con,
@@ -198,11 +198,11 @@ body {
 	}
 
 	.login-box {
-		height: 17em;
+		height: 27em;
 	}
 
 	.signup-box {
-		height: 24em;
+		height: 37em;
 	}
 
 	.inputField,
@@ -213,7 +213,6 @@ body {
 
 @media screen and (max-width: 320px) {
 	.container {
-		/* height: 32em; */
 		width: 260px;
 	}
 
@@ -226,7 +225,7 @@ body {
 	}
 
 	.moveslider {
-		left: 130px;
+		left: 137px;
 	}
 
 	.con,
@@ -240,17 +239,17 @@ body {
 	}
 
 	.gtPass {
-		margin-left: 40px;
+		margin-left: 5px;
 	}
 
 	.login-box,
 	.signup-box {
-		height: 16em;
+		height: 27em;
 		width: 250px;
 	}
 
 	.signup-box {
-		height: 23em;
+		height: 37em;
 	}
 	.clkbtn,
 	.inputField {
